@@ -1,44 +1,30 @@
-# 1.0 Load .rda data ----
-load("plot_data/Climate_module2.rda")
 
-# 2.0 Basics of Subsetting data ----
-# Format
-# data[row, column]
+# 1.0 Creating a Line Chart With plot ----
 
-
-# 2.1 Subsetting observations i.e. rows ----
-
-
-
-# 2.2 Subsetting variables i.e. column names ----
-
-
-
-# 2.3 Subsetting rows and columns ----
-
-
-
-# 2.4 Subsetting based on Logical tests ----
-
-
-
-# 2.5 Creating a Line Chart With plot ----
 
 
 # Get help for the time series function or command
 
+# ?plot.default
+# ?plot.ts
 
-# 2.6 Add title, x and y labels to the plot ----
-
-
-   
-
+# 2.1 Using the plot command arguments ----
 
 
-
+# 2.2 Adding Elements to an existing plot ----
 
 
 
+# 2.2.1 Adding Lines and Legends ----
+
+
+
+# 2.2.2 Adding a Polygon
+
+
+# 2.2.3 Adding Series with Different Time periods
+
+Jun <- window(tempY[,"Jun"],1970,2019)
 
 
 
@@ -46,7 +32,10 @@ load("plot_data/Climate_module2.rda")
 
 
 
-# Subsetting based on Logical tests
+
+
+
+
 
 
 
