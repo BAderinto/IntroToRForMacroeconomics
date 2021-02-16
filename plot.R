@@ -1,7 +1,7 @@
 # 1.0 Load .rda data ----
 load("plot_data/Climate_module2.rda")
 
-# 2.0 Subsetting data ----
+# 2.0 Basics of Subsetting data ----
 # Format
 # data[row, column]
 
@@ -15,6 +15,10 @@ load("plot_data/Climate_module2.rda")
 
 
 # 2.3 Subsetting rows and columns
+
+
+# Subsetting based on Logical tests
+
 
 
 
